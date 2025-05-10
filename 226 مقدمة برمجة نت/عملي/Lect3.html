@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sanad WebPage</title>
+        <base href="C:\Users\AAROU\University of Tripoli\226">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="Sanad" content="Study">
+        <meta name="Description" content="Understand Tutorials">
+		<!--CSS code simple but too early-->
+        <style>
+            body { background-color: burlywood; }
+            h1 { color: red; }
+            p { color: green; }
+			button{ color: aqua;}
+			.button1:hover{
+						size: 22cm;
+						background-size: 12px;
+						background-color: blue;}
+			.button2:hover{
+						size: 22cm;
+						background-size: 12px;
+						background-color: rgb(173, 103, 22);}
+			.button3:hover{
+						size: 22cm;
+						background-size: 12px;
+						background-color: rgb(13, 146, 79);}
+			.button4:hover{
+						size: 22cm;
+						background-size: 12px;
+						background-color: rgb(209, 40, 201);}
+
+        </style>
+        <style>
+        </style>
+    </head>
+
+    <body>
+        <!--World Wide Web Consortium makes the standards of web, W3C basically-->
+        <a href="https://www.w3.org/standards/webdesign/htmlcss">W3C</a><br>
+        <!--<!DOCTYPE isn't an HTML tag-->
+        <input type="search" placeholder="Search Bar :)">
+        <hr>
+        <hr>
+
+        <fieldset>
+			<!---practice the examples and play around-->
+            <legend>Ordered List:</legend>
+            <!--Try putting the list inside the table :)-->
+            <ol type="1">
+                <pre><li>ITMM111 رياضة 1             ITMM12رياضة2 2</li></pre>
+                <pre><li>ITGS111 مقدمة                ITGS124تحليل نظم</li></pre>
+                <pre><li>ITGS113 تقنيات حل المشاكل       ITGS126 تصميم دوائر</li></pre>
+                <pre><li>ITAR111 عربي 1              ITGS122 مقدمة في البرمجة</li></pre>
+                <pre><li>ITPH111 فيزياء 1              ITAR122 عربي 2</li></pre>
+                <pre><li>ITEN111 انقليزي 1              ITEN122 إنقليزي 2</li></pre>
+            </ol>
+        </fieldset>
+
+        <fieldset>
+            <legend>unOrdered List:</legend>
+            <ul type="1">
+                <pre><li>ITMM111 رياضة 1             ITMM12رياضة2 2</li></pre>
+                <pre><li>ITGS111 مقدمة                ITGS124تحليل نظم</li></pre>
+                <pre><li>ITGS113 تقنيات حل المشاكل       ITGS126 تصميم دوائر</li></pre>
+                <pre><li>ITAR111 عربي 1              ITGS122 مقدمة في البرمجة</li></pre>
+                <pre><li>ITPH111 فيزياء 1              ITAR122 عربي 2</li></pre>
+                <pre><li>ITEN111 انقليزي 1              ITEN122 إنقليزي 2</li></pre>
+            </ol>
+        </fieldset>
+
+        <fieldset>
+            <legend>Description List:</legend>
+            <dl type="1">
+                <pre><dt>ITMM111 رياضة 1</dt></pre>
+                <pre><dt>ITMM12رياضة 2  2</dt></pre>
+                <pre><dt>ITGS111 مقدمة</dt></pre>
+                <pre><dt>ITGS124تحليل نظم</dt></pre>
+                <pre><dt>ITGS111 مقدمة</dt></pre>
+                <pre><dt>ITGS124تحليل نظم</dt></pre>
+                <pre><dt>ITGS113 تقنيات حل المشاكل 
+                    <dd>This course introduces the student to different heuristic techniques
+                        that aid programmers and computer scientists in solving problems.
+                        The course uses classical math and word problems for generating potential solutions 
+                        to ''real-life'' problems encountered in the profession, and problem solving in teams.
+                        Topics covered include: Errors in reasoning; verbal reasoning; analogy problems; heuristics;
+                        mathematical word problems; analysis of trends; lateral thinking; deductive and hypothetical reasoning;
+                        computational problem solving; problem solving in-the-large; generating, implementing, 
+                        and evaluating solutions; discrete mathematics, statistics; interpersonal problem solvin
+                    </dd>
+                </dt></pre>
+                <pre><dt>ITGS126 تصميم دوائر</dt></pre>
+                <pre><dt>ITAR111 عربي 1 </dt></pre>
+                <pre><dt>ITGS122 مقدمة في البرمجة</dt></pre>
+                <pre><dt>ITPH111 فيزياء 1 </dt></pre>
+                <pre><dt>ITAR122 عربي 2</dt></pre>
+                <pre><dt>ITEN111 انقليزي 1 </dt></pre>
+                <pre><dt>ITEN122 إنقليزي 2</dt></pre>
+            </ol>
+        </fieldset>
+
+        
+
+                <fieldset><!--example for raw span column span-->
+                    <legend>Table:</legend>
+                    <table border="2">
+                        <caption>hi, im caption</caption>
+                        <thead><tr>
+                            <th colspan="6">Table Header</th>   
+                        </tr></thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="3">1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <th colspan="6">Table Footer</th>
+                        </tfoot>
+                        <!--<caption>Same result placed top or bot of the code, the caption will appear on top of table</caption>-->
+                    </table>
+                    
+                </fieldset>
+        
+        <hr>
+		<!--name unique , action back-end , method post|get , target open where? -->
+        <form name="Prsnl_Info_Form" action="" method="POST" autocomplete="on" novalidate="true" > <!--target="_blank"-->
+            <fieldset>
+                <legend>Personal Informaiton</legend>
+                <table>
+					<!--try clicking the word First Name in the browser to understand the <label> tag-->
+					<!--<id> must == <for> to make the label screen reader & touch assistant work-->
+                    <tr><td><label for="Fname">First Name:</label></td>
+                   <td><input type="text" id="Fname" name="Fname" placeholder="Jhon"><br></td></tr>
+
+                   <tr><td><label for="Lname">Last Name:</label></td>
+                    <td><input type="text" id="Lname" name="Lname" placeholder="Doe" ><br></tr>
+
+                    <tr><td><label for="Pass">Password:</label></td>
+					<!--type password makes input masked = asteric = ****-->
+                    <td><input type="password" id="Pass" name="pass" placeholder="3 words not related to u"><br></td></tr>
+
+                    <tr><td><label for="Email">Email:</label></td>
+                    <td><input type="email" id="Email" name="Email" placeholder="@somthing.com" value="@gmail.com"><br></td></tr>
+                    <!--Email input type is automatically validated for proper email format unlike text input type wich doesn't-->
+
+                    <tr><td><label for="Tel">Phone Number:</label></td>
+                        <!---value has higher priority than placeholder-->
+                    <td><input type="tel" id="Tel" name="Tel" placeholder="" value="+2180"><br></td></tr>
+
+                    <!--focus the method <select> <option> is placed in a table-->
+                    <tr>
+                        <td><label for="Ur-Pet">Your pet from select:</label></td>
+                        <td><select name="Pets" id="Pet-Select">
+                            <option value="">--Please choose an option--</option>
+                                <optgroup label="Dog">
+                                    <option value="chiwawa">chiwawa</option>
+                                    <option value="K9">K9</option>   
+                                <optgroup label="Cat"> 
+                                    <option value="Cyami">Cyami</option>
+                                    <option value="Persian">Persian</option>
+                                <optgroup label="Bird">
+                                    <option value="parrot">Parrot</option>
+                                <optgroup label="Other">
+                                    <option value="hamster">Hamster</option>
+                                    <option value="spider">Spider</option>
+                                    <option value="goldfish">Goldfish</option>
+                            </select></td>
+                </tr>
+
+                    <tr>
+                        <td><label for="Ur-Pet-data">Your pet from dataset:</label></td>
+                        <td><input list="Ur-Pet-data" id="Ur-Pet-data" name="Ur-Pet-data"></td>
+                        <datalist name="Ur-Pet-data" id="Ur-Pet-data">
+                            <!--datalist items can't be in a <td> or <tr>-->
+                            <!--<optgroup also can't be used>-->
+                                    <option value="chiwawa">
+                                    <option value="K9">
+                                    <option value="cat">
+                                    <option value="parrot">
+                                    <option value="hamster">
+                                    <option value="spider">
+                                    <option value="goldfish">
+                            </datalist>
+                    </tr>
+                    
+                    <tr><td><label for="Salary">Salary:</label></td>
+                    <td><input type="number" max="12000" min="1000" step="50" value="1000"></td></tr>
+                    <!--same-->
+                    <tr><td><label for="Range">Range:</label></td>
+                    <td><input type="number" max="12000" min="1000" step="50"></td></tr>
+
+                    <tr><td><label for="Express">Express your self for us:</label></td>
+                    <!--rows and cols, size, hight width all don't work, seems HTML4?-->
+                    <td><input type="textarea" name="Express" id="Express" required="1"></td></tr>
+
+                    <tr><td><label for="File-Up">Upload your resume:</label></td>
+                    <!--accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">-->
+                    <td><input type="file" accept=".pdf"></td></tr>
+                    <!--accept attribute affects the pop-up window, look next time FileName-->
+
+                    
+					<!--add an input hidden tag-->
+					<!--add an intput button tag-->
+					<!--add an input image tag-->
+                    
+                    <tr><td><input type="submit"><br><td></tr><!--submit button, sends form data to a form-handler to process: back-end-->
+                </table>
+            </fieldset>
+        </form>
+        <hr>
+		<!--class for styling in top of code-->
+        <button class="button button1">C me 1?</button>
+		<button class="button button2">C me 2?</button>
+		<button class="button button3">C me 3?</button>
+		<button class="button button4">C me 4?</button>
+        <hr>
+        <form>
+            <fieldset>
+                <legend>Language to Learn</legend>
+				<!--best to start wit type -> id -> name -> value as a standard thorugh ur code-->
+                <input type="radio" id="HTML" name="Fave_Lang" value="HTML">
+                <label for="HTML">HTML</label><br>
+
+                <input type="radio" id="CSS" name="Fave_Lang" value="CSS">
+                <label for="HTML">CSS</label><br>
+
+                <input type="radio" id="Python" name="Fave_Lang" value="Python">
+                <label for="HTML">Python</label><br>
+
+                <input type="submit"><br>
+            </fieldset>
+        </form>
+        <hr>
+        <form>
+                <fieldset>
+                    <legend>Known Languages</legend>
+                    <input type="checkbox" id="HTML" name="Fave_Lang" value="HTML">
+                    <label for="HTML">HTML</label><br>
+    
+                    <input type="checkbox" id="CSS" name="Fave_Lang" value="CSS">
+                    <label for="HTML">CSS</label><br>
+    
+                    <input type="checkbox" id="Python" name="Fave_Lang" value="Python">
+                    <label for="HTML">Python</label><br>
+                    
+                    <input type="submit"><br>
+                </fieldset>
+        date is:<input type="datetime-local"><br>
+        date is:<input type="date"><br>
+    </body>
+	<!-- hi, written by LibyaChampion for the purpose of supporting dream chasers and plan committers, good luck guys and BEST WISHES!!! -->
+</html>

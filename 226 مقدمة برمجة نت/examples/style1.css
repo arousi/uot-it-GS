@@ -1,0 +1,378 @@
+*{
+	list-style: none;
+	box-sizing: border-box;
+
+}
+body{
+    background-color: #ffefef;
+    margin: 0;
+}
+.headimg{
+    align-items: top;
+    width: 100%;
+    height: 80vh;
+}
+main {
+	padding: 1em;
+	background-color: #ffefef;
+	border-radius: 5px;
+	width: 30em;
+	height: 100%;
+	position: relative;
+	bottom: 10em;
+	left: 25em;
+	box-shadow: 5px 0px 15px 2px rgba(0, 0, 0, 0.473);
+}
+.h {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 7px;
+	margin-bottom: -1px;
+}
+.p1 {
+	font-size: 13px;
+}
+.p2 {
+	font-size: 10px;
+}
+hr {
+	margin-left: 0px;
+	margin-right: -2px;
+}
+.imgp {
+	float: right;
+	height: 129px;
+	width: 166px;
+}
+.button {
+	position: relative;
+	left: 178px;
+	bottom: -6px;
+	margin: 7px;
+	background-color: black;
+	border: 0px solid;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+}
+.imgp2 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	position: relative;
+	bottom: 70px;
+}
+.i{
+  width: 200px;
+  height: 150px;
+
+}
+.j{
+	background-image: url(/images/isometric-miniature-jardin-de-la-concepcion-malaga.jpg);
+	background-size: 100% 100%;
+	display: flex;
+}
+.j2{
+	background-image: url(/images/isometric-miniature-la-farola-malaga.jpg);
+	background-size: 100% 100%;
+	display: flex;
+}
+.j3{
+	background-image: url(/images/isometric-miniature-plaza-de-toros-la-malagueta-malaga.jpg);
+	background-size: 100% 100%;
+	display: flex;
+}
+.d {
+	background-color: rgba(0, 0, 0, 0.575);
+	height: 36px;
+	width: 250px;
+	align-self: flex-end;
+	display: grid;
+	padding: 2px;
+}
+.d2 {
+	background-color: rgba(0, 0, 0, 0.575);
+	height: 36px;
+	width: 250px;
+	align-self: flex-end;
+	display: grid;
+	padding: 2px;
+}
+.d3 {
+	background-color: rgba(255, 255, 255, 0.575);
+	height: 151px;
+	width: 51px;
+	order: 1;
+}
+.arrow {
+	padding-top: 65px;
+	padding-left: 14px;
+}
+.b {
+	color: #fff;
+	font-size: 11px;
+	margin: 0;
+	justify-self: center;
+	padding: 3px;
+}
+footer {
+	background-color: #000000;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.img3 {
+	object-fit: cover;
+	height: 40px;
+	width: 100px;
+	position: relative;
+	right: 297px;
+	top: 16px;
+}
+.ul2{
+margin: 10px;
+padding: 10px;
+}
+.list {
+	display: flex;
+	font-size: large;
+	justify-content: space-between;
+}
+li{
+	margin-bottom: 7px;
+}
+.l {
+	font-size: 23px;
+	margin-left: -8px;
+}
+
+@media (max-width: 766px){
+
+	main {
+		padding: 1em;
+		background-color: #ffefef;
+		border-radius: 5px;
+		width: 30em;
+		height: 100%;
+		position: relative;
+		bottom: 10em;
+		left: 10em;
+		box-shadow: 5px 0px 15px 2px rgba(0, 0, 0, 0.473);
+	}
+	.button {
+		position: relative;
+		left: 178px;
+		bottom: -6px;
+		margin: 7px;
+		background-color: black;
+		border: 0px solid;
+		color: #fff;
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.img3 {
+		object-fit: cover;
+		height: 31px;
+		width: 80px;
+		position: relative;
+		right: 125px;
+		top: 9px;
+	}
+	.ul2{
+	margin: 10px;
+	padding: 10px;
+	}
+	.list {
+		display: flex;
+		font-size: 12px;
+		justify-content: space-around;
+		margin-left: -26px;
+		margin-top: 10px;
+	}
+	li{
+		margin-bottom: 7px;
+	}
+	.l {
+		font-size: 20px;
+		margin-left: -10px;
+	}
+    
+	.p3 {
+		color: #fff;
+		font-size: 11px;
+	}
+}
+
+@media (min-width: 768px){
+
+	main {
+		padding: 1em;
+		background-color: #ffefef;
+		border-radius: 5px;
+		width: 30em;
+		height: 100%;
+		position: relative;
+		bottom: 10em;
+		left: 8em;
+		box-shadow: 5px 0px 15px 2px rgba(0, 0, 0, 0.473);
+	}
+	.button {
+		position: relative;
+		left: 178px;
+		bottom: -6px;
+		margin: 7px;
+		background-color: black;
+		border: 0px solid;
+		color: #fff;
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.img3 {
+		object-fit: cover;
+		height: 31px;
+		width: 80px;
+		position: relative;
+		right: 125px;
+		top: 9px;
+	}
+	.ul2{
+	margin: 10px;
+	padding: 10px;
+	}
+	.list {
+		display: flex;
+		font-size: 12px;
+		justify-content: space-around;
+		margin-left: -26px;
+		margin-top: 10px;
+	}
+	li{
+		margin-bottom: 7px;
+	}
+	.l {
+		font-size: 20px;
+		margin-left: -10px;
+	}
+    
+	.p3 {
+		color: #fff;
+		font-size: 11px;
+	}
+}
+
+@media (min-width: 920px){
+	main {
+		padding: 1em;
+		background-color: #ffefef;
+		border-radius: 5px;
+		width: 30em;
+		height: 100%;
+		position: relative;
+		bottom: 10em;
+		left: 14em;
+		box-shadow: 5px 0px 15px 2px rgba(0, 0, 0, 0.473);
+	}
+	.button {
+		position: relative;
+		left: 178px;
+		bottom: -6px;
+		margin: 7px;
+		background-color: black;
+		border: 0px solid;
+		color: #fff;
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.img3 {
+		object-fit: cover;
+		height: 37px;
+		width: 96px;
+		position: relative;
+		right: 164px;
+		top: 9px;
+	}
+	.ul2{
+	margin: 10px;
+	padding: 10px;
+	}
+	.list {
+		display: flex;
+		font-size: 12px;
+		justify-content: space-around;
+		margin-left: -26px;
+		margin-top: 10px;
+	}
+	li{
+		margin-bottom: 7px;
+	}
+	.l {
+		font-size: 20px;
+		margin-left: -10px;
+	}
+    
+	.p3 {
+		color: #fff;
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+
+}
+
+@media (min-width: 1200px){
+	main {
+		padding: 1em;
+		background-color: #ffefef;
+		border-radius: 5px;
+		width: 30em;
+		height: 100%;
+		position: relative;
+		bottom: 10em;
+		left: 22em;
+		box-shadow: 5px 0px 15px 2px rgba(0, 0, 0, 0.473);
+	}
+	.button {
+		position: relative;
+		left: 178px;
+		bottom: -6px;
+		margin: 7px;
+		background-color: black;
+		border: 0px solid;
+		color: #fff;
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.img3 {
+		object-fit: cover;
+		height: 41px;
+		width: 106px;
+		position: relative;
+		right: 185px;
+		top: 9px;
+	}
+	.ul2{
+	margin: 10px;
+	padding: 10px;
+	}
+	.list {
+		display: flex;
+		font-size: 18px;
+		justify-content: space-around;
+		margin-left: -31px;
+		margin-top: 10px;
+	}
+	li{
+		margin-bottom: 7px;
+	}
+	.l {
+		font-size: 28px;
+        margin-left: -11px;
+	}
+    
+	.p3 {
+		color: #fff;
+		font-size: 17px;
+		margin-bottom: 10px;
+	}
+
+}
